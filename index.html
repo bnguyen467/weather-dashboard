@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./Assets/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./Assets/style.css">
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+  <form>
+    <p>
+      <label for="city">Search for a City:</label>
+      <div>
+      <input type="text" name="city" id="city" placeholder="Search...">
+      <button id="search"><i class="fa fa-search"></i></button>
+      </div>
+    </p>
+    <p>
+
+      
+    </p>
+  </form>
+
+  <div id="weather"></div>
+  <div id="forecast"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./Assets/script.js"></script>
+
+
+</body>
+
+</html>
